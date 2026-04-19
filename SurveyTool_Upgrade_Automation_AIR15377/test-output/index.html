@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\miguel.l.m.calalang\AppData\Local\Temp\testng-eclipse-134163465\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCopySurveyObjects">verifyCopySurveyObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveyGeneralSettingsObjects">verifyCreateSurveyGeneralSettingsObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveyNotifObjects">verifyCreateSurveyNotifObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveyParticipantObjects">verifyCreateSurveyParticipantObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveyPresentationObjects">verifyCreateSurveyPresentationObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveyPublicationObjects">verifyCreateSurveyPublicationObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveyTextElementsObjects">verifyCreateSurveyTextElementsObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyCreateSurveysObjects">verifyCreateSurveysObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyDataPrivacyGuidanceLink">verifyDataPrivacyGuidanceLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyGetHelpRedirection">verifyGetHelpRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyHomePageObjects">verifyHomePageObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyImportSurveyObjects">verifyImportSurveyObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyManageSurveysObjects">verifyManageSurveysObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyManageThemesObjects">verifyManageThemesObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifyRegisterYourSurveyLink">verifyRegisterYourSurveyLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifySurveyGroupObjects">verifySurveyGroupObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.SurveyToolTest" class="method navigator-link" hash-for-method="verifySurveyListObjects">verifySurveyListObjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.SurveyToolTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCopySurveyObjects">
+                  </a> <!-- verifyCopySurveyObjects -->
+                  <span class="method-name">verifyCopySurveyObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveyGeneralSettingsObjects">
+                  </a> <!-- verifyCreateSurveyGeneralSettingsObjects -->
+                  <span class="method-name">verifyCreateSurveyGeneralSettingsObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveyNotifObjects">
+                  </a> <!-- verifyCreateSurveyNotifObjects -->
+                  <span class="method-name">verifyCreateSurveyNotifObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveyParticipantObjects">
+                  </a> <!-- verifyCreateSurveyParticipantObjects -->
+                  <span class="method-name">verifyCreateSurveyParticipantObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveyPresentationObjects">
+                  </a> <!-- verifyCreateSurveyPresentationObjects -->
+                  <span class="method-name">verifyCreateSurveyPresentationObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveyPublicationObjects">
+                  </a> <!-- verifyCreateSurveyPublicationObjects -->
+                  <span class="method-name">verifyCreateSurveyPublicationObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveyTextElementsObjects">
+                  </a> <!-- verifyCreateSurveyTextElementsObjects -->
+                  <span class="method-name">verifyCreateSurveyTextElementsObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateSurveysObjects">
+                  </a> <!-- verifyCreateSurveysObjects -->
+                  <span class="method-name">verifyCreateSurveysObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDataPrivacyGuidanceLink">
+                  </a> <!-- verifyDataPrivacyGuidanceLink -->
+                  <span class="method-name">verifyDataPrivacyGuidanceLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetHelpRedirection">
+                  </a> <!-- verifyGetHelpRedirection -->
+                  <span class="method-name">verifyGetHelpRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageObjects">
+                  </a> <!-- verifyHomePageObjects -->
+                  <span class="method-name">verifyHomePageObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImportSurveyObjects">
+                  </a> <!-- verifyImportSurveyObjects -->
+                  <span class="method-name">verifyImportSurveyObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyManageSurveysObjects">
+                  </a> <!-- verifyManageSurveysObjects -->
+                  <span class="method-name">verifyManageSurveysObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyManageThemesObjects">
+                  </a> <!-- verifyManageThemesObjects -->
+                  <span class="method-name">verifyManageThemesObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterYourSurveyLink">
+                  </a> <!-- verifyRegisterYourSurveyLink -->
+                  <span class="method-name">verifyRegisterYourSurveyLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySurveyGroupObjects">
+                  </a> <!-- verifySurveyGroupObjects -->
+                  <span class="method-name">verifySurveyGroupObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySurveyListObjects">
+                  </a> <!-- verifySurveyListObjects -->
+                  <span class="method-name">verifySurveyListObjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\miguel.l.m.calalang\AppData\Local\Temp\testng-eclipse-134163465\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.SurveyToolTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyHomePageObjects')
+data.setCell(0, 2, 'Test.SurveyToolTest')
+data.setCell(0, 3, 44324);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCreateSurveysObjects')
+data.setCell(1, 2, 'Test.SurveyToolTest')
+data.setCell(1, 3, 7745);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyManageSurveysObjects')
+data.setCell(2, 2, 'Test.SurveyToolTest')
+data.setCell(2, 3, 6676);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyManageThemesObjects')
+data.setCell(3, 2, 'Test.SurveyToolTest')
+data.setCell(3, 3, 6495);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyGetHelpRedirection')
+data.setCell(4, 2, 'Test.SurveyToolTest')
+data.setCell(4, 3, 3202);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCreateSurveyPresentationObjects')
+data.setCell(5, 2, 'Test.SurveyToolTest')
+data.setCell(5, 3, 876);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCopySurveyObjects')
+data.setCell(6, 2, 'Test.SurveyToolTest')
+data.setCell(6, 3, 726);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCreateSurveyTextElementsObjects')
+data.setCell(7, 2, 'Test.SurveyToolTest')
+data.setCell(7, 3, 723);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCreateSurveyNotifObjects')
+data.setCell(8, 2, 'Test.SurveyToolTest')
+data.setCell(8, 3, 647);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCreateSurveyParticipantObjects')
+data.setCell(9, 2, 'Test.SurveyToolTest')
+data.setCell(9, 3, 607);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCreateSurveyGeneralSettingsObjects')
+data.setCell(10, 2, 'Test.SurveyToolTest')
+data.setCell(10, 3, 587);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySurveyListObjects')
+data.setCell(11, 2, 'Test.SurveyToolTest')
+data.setCell(11, 3, 551);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyCreateSurveyPublicationObjects')
+data.setCell(12, 2, 'Test.SurveyToolTest')
+data.setCell(12, 3, 499);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyImportSurveyObjects')
+data.setCell(13, 2, 'Test.SurveyToolTest')
+data.setCell(13, 3, 410);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifySurveyGroupObjects')
+data.setCell(14, 2, 'Test.SurveyToolTest')
+data.setCell(14, 3, 316);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyRegisterYourSurveyLink')
+data.setCell(15, 2, 'Test.SurveyToolTest')
+data.setCell(15, 3, 21);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyDataPrivacyGuidanceLink')
+data.setCell(16, 2, 'Test.SurveyToolTest')
+data.setCell(16, 3, 19);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.SurveyToolTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageObjects</span>
+                <span class="method-start">135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyHomePageObjects status=SUCCESS method=SurveyToolTest.verifyHomePageObjects()[...)</span>
+                <span class="method-start">44462 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyDataPrivacyGuidanceLink</span>
+                <span class="method-start">44467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyDataPrivacyGuidanceLink status=SUCCESS method=SurveyToolTest.verifyDataPrivac...)</span>
+                <span class="method-start">44487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterYourSurveyLink</span>
+                <span class="method-start">44487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyRegisterYourSurveyLink status=SUCCESS method=SurveyToolTest.verifyRegisterYou...)</span>
+                <span class="method-start">44509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveysObjects</span>
+                <span class="method-start">44509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveysObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveys...)</span>
+                <span class="method-start">52255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveyTextElementsObjects</span>
+                <span class="method-start">52257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveyTextElementsObjects status=SUCCESS method=SurveyToolTest.verifyCr...)</span>
+                <span class="method-start">52981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveyGeneralSettingsObjects</span>
+                <span class="method-start">52981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveyGeneralSettingsObjects status=SUCCESS method=SurveyToolTest.verif...)</span>
+                <span class="method-start">53568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveyPresentationObjects</span>
+                <span class="method-start">53569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveyPresentationObjects status=SUCCESS method=SurveyToolTest.verifyCr...)</span>
+                <span class="method-start">54445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveyPublicationObjects</span>
+                <span class="method-start">54446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveyPublicationObjects status=SUCCESS method=SurveyToolTest.verifyCre...)</span>
+                <span class="method-start">54946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveyNotifObjects</span>
+                <span class="method-start">54946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveyNotifObjects status=SUCCESS method=SurveyToolTest.verifyCreateSur...)</span>
+                <span class="method-start">55594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateSurveyParticipantObjects</span>
+                <span class="method-start">55594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCreateSurveyParticipantObjects status=SUCCESS method=SurveyToolTest.verifyCre...)</span>
+                <span class="method-start">56202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyImportSurveyObjects</span>
+                <span class="method-start">56203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyImportSurveyObjects status=SUCCESS method=SurveyToolTest.verifyImportSurveyOb...)</span>
+                <span class="method-start">56615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCopySurveyObjects</span>
+                <span class="method-start">56615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCopySurveyObjects status=SUCCESS method=SurveyToolTest.verifyCopySurveyObject...)</span>
+                <span class="method-start">57341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyManageSurveysObjects</span>
+                <span class="method-start">57342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyManageSurveysObjects status=SUCCESS method=SurveyToolTest.verifyManageSurveys...)</span>
+                <span class="method-start">64019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySurveyListObjects</span>
+                <span class="method-start">64020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySurveyListObjects status=SUCCESS method=SurveyToolTest.verifySurveyListObject...)</span>
+                <span class="method-start">64571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySurveyGroupObjects</span>
+                <span class="method-start">64572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifySurveyGroupObjects status=SUCCESS method=SurveyToolTest.verifySurveyGroupObje...)</span>
+                <span class="method-start">64888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyManageThemesObjects</span>
+                <span class="method-start">64889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyManageThemesObjects status=SUCCESS method=SurveyToolTest.verifyManageThemesOb...)</span>
+                <span class="method-start">71384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyGetHelpRedirection</span>
+                <span class="method-start">71385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyGetHelpRedirection status=SUCCESS method=SurveyToolTest.verifyGetHelpRedirect...)</span>
+                <span class="method-start">74589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">74590 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endreport</span>
+                <span class="method-start">74591 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">74897 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

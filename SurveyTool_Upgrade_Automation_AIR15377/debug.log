@@ -1,0 +1,24 @@
+[0425/132322.231:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0426/132323.747:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0427/132325.484:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0612/110612.825:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0613/110612.649:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0614/110612.448:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0627/142118.553:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0628/142120.337:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0629/142122.079:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0903/160916.647:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0522/162913.035:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0522/162913.063:ERROR:exception_snapshot_win.cc(98)] thread ID 17088 not found in process
+[0121/134716.283:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir23440_29308\Crashpad: The system cannot find the file specified. (0x2)
+[0121/135104.000:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0122/103457.261:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir24316_4114\Crashpad: The system cannot find the file specified. (0x2)
+[0128/134636.713:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir9324_24193\Crashpad: The system cannot find the file specified. (0x2)
+[0128/135040.246:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir11640_11728\Crashpad: The system cannot find the file specified. (0x2)
+[0128/142553.115:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir7740_6142\Crashpad: The system cannot find the file specified. (0x2)
+[0128/143932.214:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir1848_15961\Crashpad: The system cannot find the file specified. (0x2)
+[0211/140936.096:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir3496_8438\Crashpad: The system cannot find the file specified. (0x2)
+[0211/143217.927:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir6880_30846\Crashpad: The system cannot find the file specified. (0x2)
+[0219/154201.349:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir53052_13549\Crashpad: The system cannot find the file specified. (0x2)
+[0219/165727.493:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir8508_2707\Crashpad: The system cannot find the file specified. (0x2)
+[0924/213334.442:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\RHEAJE~1.CAL\AppData\Local\Temp\scoped_dir16216_19802\Crashpad: The system cannot find the file specified. (0x2)

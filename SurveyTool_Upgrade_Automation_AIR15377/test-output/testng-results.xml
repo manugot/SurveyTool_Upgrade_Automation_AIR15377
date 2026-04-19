@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[>>>>> Executing SurveyToolTest <<<<<]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Opened https://surveytool.accenture.com/surveys/index.php?r=admin]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[>>>>> Terminating SurveyToolTest <<<<<]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-24T20:03:24 CST" name="Default suite" finished-at="2023-01-24T20:04:39 CST" duration-ms="74879">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T20:03:24 CST" name="Default test" finished-at="2023-01-24T20:04:39 CST" duration-ms="74879">
+      <class name="Test.SurveyToolTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:03:24 CST" name="startReport" finished-at="2023-01-24T20:03:25 CST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="verifyHomePageObjects()[pri:1, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:03:25 CST" name="verifyHomePageObjects" finished-at="2023-01-24T20:04:09 CST" duration-ms="44324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:09 CST" name="getResult" finished-at="2023-01-24T20:04:09 CST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageObjects status=SUCCESS method=SurveyToolTest.verifyHomePageObjects()[pri:1, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyDataPrivacyGuidanceLink()[pri:2, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:09 CST" name="verifyDataPrivacyGuidanceLink" finished-at="2023-01-24T20:04:09 CST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataPrivacyGuidanceLink -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:09 CST" name="getResult" finished-at="2023-01-24T20:04:09 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDataPrivacyGuidanceLink status=SUCCESS method=SurveyToolTest.verifyDataPrivacyGuidanceLink()[pri:2, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyRegisterYourSurveyLink()[pri:3, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:09 CST" name="verifyRegisterYourSurveyLink" finished-at="2023-01-24T20:04:09 CST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterYourSurveyLink -->
+        <test-method signature="verifyCreateSurveysObjects()[pri:4, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:09 CST" name="verifyCreateSurveysObjects" finished-at="2023-01-24T20:04:17 CST" duration-ms="7745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveysObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:09 CST" name="getResult" finished-at="2023-01-24T20:04:09 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterYourSurveyLink status=SUCCESS method=SurveyToolTest.verifyRegisterYourSurveyLink()[pri:3, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:17 CST" name="getResult" finished-at="2023-01-24T20:04:17 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveysObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveysObjects()[pri:4, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyCreateSurveyTextElementsObjects()[pri:5, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:17 CST" name="verifyCreateSurveyTextElementsObjects" finished-at="2023-01-24T20:04:17 CST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveyTextElementsObjects -->
+        <test-method signature="verifyCreateSurveyGeneralSettingsObjects()[pri:6, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:17 CST" name="verifyCreateSurveyGeneralSettingsObjects" finished-at="2023-01-24T20:04:18 CST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveyGeneralSettingsObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:17 CST" name="getResult" finished-at="2023-01-24T20:04:17 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveyTextElementsObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveyTextElementsObjects()[pri:5, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:18 CST" name="getResult" finished-at="2023-01-24T20:04:18 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveyGeneralSettingsObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveyGeneralSettingsObjects()[pri:6, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyCreateSurveyPresentationObjects()[pri:7, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:18 CST" name="verifyCreateSurveyPresentationObjects" finished-at="2023-01-24T20:04:19 CST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveyPresentationObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:19 CST" name="getResult" finished-at="2023-01-24T20:04:19 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveyPresentationObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveyPresentationObjects()[pri:7, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyCreateSurveyPublicationObjects()[pri:8, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:19 CST" name="verifyCreateSurveyPublicationObjects" finished-at="2023-01-24T20:04:19 CST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveyPublicationObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:19 CST" name="getResult" finished-at="2023-01-24T20:04:19 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveyPublicationObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveyPublicationObjects()[pri:8, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyCreateSurveyNotifObjects()[pri:9, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:19 CST" name="verifyCreateSurveyNotifObjects" finished-at="2023-01-24T20:04:20 CST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveyNotifObjects -->
+        <test-method signature="verifyCreateSurveyParticipantObjects()[pri:10, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:20 CST" name="verifyCreateSurveyParticipantObjects" finished-at="2023-01-24T20:04:21 CST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateSurveyParticipantObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:20 CST" name="getResult" finished-at="2023-01-24T20:04:20 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveyNotifObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveyNotifObjects()[pri:9, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:21 CST" name="getResult" finished-at="2023-01-24T20:04:21 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateSurveyParticipantObjects status=SUCCESS method=SurveyToolTest.verifyCreateSurveyParticipantObjects()[pri:10, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyImportSurveyObjects()[pri:11, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:21 CST" name="verifyImportSurveyObjects" finished-at="2023-01-24T20:04:21 CST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportSurveyObjects -->
+        <test-method signature="verifyCopySurveyObjects()[pri:12, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:21 CST" name="verifyCopySurveyObjects" finished-at="2023-01-24T20:04:22 CST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCopySurveyObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:21 CST" name="getResult" finished-at="2023-01-24T20:04:21 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyImportSurveyObjects status=SUCCESS method=SurveyToolTest.verifyImportSurveyObjects()[pri:11, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:22 CST" name="getResult" finished-at="2023-01-24T20:04:22 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCopySurveyObjects status=SUCCESS method=SurveyToolTest.verifyCopySurveyObjects()[pri:12, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyManageSurveysObjects()[pri:13, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:22 CST" name="verifyManageSurveysObjects" finished-at="2023-01-24T20:04:28 CST" duration-ms="6676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageSurveysObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:28 CST" name="getResult" finished-at="2023-01-24T20:04:28 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageSurveysObjects status=SUCCESS method=SurveyToolTest.verifyManageSurveysObjects()[pri:13, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifySurveyListObjects()[pri:14, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:28 CST" name="verifySurveyListObjects" finished-at="2023-01-24T20:04:29 CST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySurveyListObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:29 CST" name="getResult" finished-at="2023-01-24T20:04:29 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySurveyListObjects status=SUCCESS method=SurveyToolTest.verifySurveyListObjects()[pri:14, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifySurveyGroupObjects()[pri:15, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:29 CST" name="verifySurveyGroupObjects" finished-at="2023-01-24T20:04:29 CST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySurveyGroupObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:29 CST" name="getResult" finished-at="2023-01-24T20:04:29 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySurveyGroupObjects status=SUCCESS method=SurveyToolTest.verifySurveyGroupObjects()[pri:15, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyManageThemesObjects()[pri:16, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:29 CST" name="verifyManageThemesObjects" finished-at="2023-01-24T20:04:36 CST" duration-ms="6495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageThemesObjects -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:36 CST" name="getResult" finished-at="2023-01-24T20:04:36 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyManageThemesObjects status=SUCCESS method=SurveyToolTest.verifyManageThemesObjects()[pri:16, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyGetHelpRedirection()[pri:17, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:36 CST" name="verifyGetHelpRedirection" finished-at="2023-01-24T20:04:39 CST" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetHelpRedirection -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:39 CST" name="getResult" finished-at="2023-01-24T20:04:39 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetHelpRedirection status=SUCCESS method=SurveyToolTest.verifyGetHelpRedirection()[pri:17, instance:Test.SurveyToolTest@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:39 CST" name="endTest" finished-at="2023-01-24T20:04:39 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[>>>>> Terminating SurveyToolTest <<<<<]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:39 CST" name="endreport" finished-at="2023-01-24T20:04:39 CST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.SurveyToolTest@75ed9710]" started-at="2023-01-24T20:04:39 CST" name="closeBrowser" finished-at="2023-01-24T20:04:40 CST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.SurveyToolTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
