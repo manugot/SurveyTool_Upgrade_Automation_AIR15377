@@ -12,11 +12,11 @@ public class SurveyToolTest extends SurveyToolMethods {
  //  String browserUsed = TestData.browserDev;
  //  String msBrowserUsed = TestData.msBrowserDev;
     
-     String browserUsed = TestData.browserStaging;
-     String msBrowserUsed = TestData.msBrowserStaging;
+//     String browserUsed = TestData.browserStaging;
+//     String msBrowserUsed = TestData.msBrowserStaging;
     
-//    String browserUsed = TestData.browserProd;
-//    String msBrowserUsed = TestData.msBrowserProd;
+    String browserUsed = TestData.browserProd;
+    String msBrowserUsed = TestData.msBrowserProd;
 
     public SurveyToolTest() throws Exception {
         getModuleName(this.getClass().getSimpleName());
