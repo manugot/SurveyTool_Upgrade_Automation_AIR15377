@@ -945,9 +945,9 @@ public void copyEmptySurveyTitle() throws Exception {
     	Thread.sleep(3000);
         try {
             // Enter survey ID in search
-            String surveyID = "814957";
-            // STG - surveyID = "117964"
-            // PRD - surveyID = "814957"
+            String surveyID = "687714";
+            // STG - surveyID = "687714"
+            // PRD - surveyID = "721455"
             
             driver.findElement(By.xpath("//*[@id='Survey_searched_value']")).clear();
             driver.findElement(By.xpath("//*[@id='Survey_searched_value']")).sendKeys(surveyID);
@@ -3026,7 +3026,6 @@ public void copyEmptySurveyTitle() throws Exception {
             endInput.sendKeys("Updated Survey End Message - Automation");
             ExtentReporter.log(LogStatus.INFO, "Entered new end message in the End message CK Editor");
             switchToDefault();
-
         } catch (Exception e) {
             ExtentReporter.log(LogStatus.FAIL, "Failed to update end message: " + e.getMessage());
             throw e;
@@ -3051,7 +3050,7 @@ public void copyEmptySurveyTitle() throws Exception {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center', inline:'nearest'});", aliasInput);
             aliasInput.sendKeys(Keys.chord(Keys.CONTROL, "a"));
             aliasInput.sendKeys(Keys.DELETE);
-            aliasInput.sendKeys("updated-survey-alias-auto63");
+            aliasInput.sendKeys("updated-survey-alias-auto102");
             ExtentReporter.log(LogStatus.INFO, "Entered new survey alias in the Survey alias input field");
 
             if (!clickWithRetry(By.id("save-button"), "Save button")) {
@@ -3061,7 +3060,7 @@ public void copyEmptySurveyTitle() throws Exception {
             Thread.sleep(10000);
 
             String updatedAlias = driver.findElement(By.xpath("//*[@id='alias_en']")).getAttribute("value");
-            if (updatedAlias.equals("updated-survey-alias-auto63")) {
+            if (updatedAlias.equals("updated-survey-alias-auto102")) {
                 ExtentReporter.log(LogStatus.PASS, "Survey alias updated successfully to: " + updatedAlias);
             } else {
                 ExtentReporter.log(LogStatus.FAIL, "Survey alias update failed. Current alias: " + updatedAlias);
@@ -4607,9 +4606,9 @@ public void verifyImportSurveyParticipantsCSvFileObjs() throws Exception {
                 put("Create icon - Header", "//button[@aria-label='Create Survey']");
                 put("Survey List - Header", "//a[@class='nav-link acn-nav-link ps-2 pe-2']");
                 put("Active Survey - Header", "//a[@class='nav-link acn-nav-link ps-2 pe-2 active-surveys']");
-//                put("Configuration - Header", "(//*[contains(@class, 'mainmenu-dropdown-toggle')])[2]");
-//                put("Notification bell icon - Header", "(//i[@id='notification-bell'])[1]"); // STG envi
-                put("Notification bell icon - Header", "//span[@id='notification-bell']"); // PRD envi
+                put("Configuration - Header", "(//*[contains(@class, 'mainmenu-dropdown-toggle')])[2]");
+                put("Notification bell icon - Header", "(//i[@id='notification-bell'])[1]"); // STG envi
+ //               put("Notification bell icon - Header", "//span[@id='notification-bell']"); // PRD envi
                 put("User icon - Header", "(//*[contains(@class, 'rounded-circle')])[2]");
                 put("Homepage Logo", "(//*[@id='lime-logo'])[2]");
                 put("Homepage Tagline", "//*[text()='Your Survey, Your Way.']");
@@ -5125,9 +5124,9 @@ public void verifyHeader() throws Exception {
     String createSurveyButton = "(//button[@aria-label='Create Survey'])[1]";
     String surveys = "(//*[@class='nav-link acn-nav-link ps-2 pe-2'])[1]";
     String activeSurveys = "(//*[@class='nav-link acn-nav-link ps-2 pe-2 active-surveys'])[1]";
-//    String config = "(//*[@class='nav-link acn-nav-link dropdown-toggle mainmenu-dropdown-toggle'])[1]";
-//    String notif = "(//i[@id='notification-bell'])[1]"; // STG envi
-    String notif = "//span[@id='notification-bell']"; // PRD envi
+    String config = "(//*[@class='nav-link acn-nav-link dropdown-toggle mainmenu-dropdown-toggle'])[1]";
+    String notif = "(//i[@id='notification-bell'])[1]"; // STG envi
+    //String notif = "//span[@id='notification-bell']"; // PRD envi
     String accountName = "(//*[@class='nav-link acn-nav-link dropdown-toggle d-flex align-items-center'])[1]";
 
     isElementDisplayed(accentureLogo, "xpath", "Accenture Logo");
