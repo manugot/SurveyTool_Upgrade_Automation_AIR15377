@@ -3050,7 +3050,7 @@ public void copyEmptySurveyTitle() throws Exception {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center', inline:'nearest'});", aliasInput);
             aliasInput.sendKeys(Keys.chord(Keys.CONTROL, "a"));
             aliasInput.sendKeys(Keys.DELETE);
-            aliasInput.sendKeys("updated-survey-alias-auto102");
+            aliasInput.sendKeys("updated-survey-alias-auto103");
             ExtentReporter.log(LogStatus.INFO, "Entered new survey alias in the Survey alias input field");
 
             if (!clickWithRetry(By.id("save-button"), "Save button")) {
@@ -3060,7 +3060,7 @@ public void copyEmptySurveyTitle() throws Exception {
             Thread.sleep(10000);
 
             String updatedAlias = driver.findElement(By.xpath("//*[@id='alias_en']")).getAttribute("value");
-            if (updatedAlias.equals("updated-survey-alias-auto102")) {
+            if (updatedAlias.equals("updated-survey-alias-auto103")) {
                 ExtentReporter.log(LogStatus.PASS, "Survey alias updated successfully to: " + updatedAlias);
             } else {
                 ExtentReporter.log(LogStatus.FAIL, "Survey alias update failed. Current alias: " + updatedAlias);
